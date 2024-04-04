@@ -1,0 +1,73 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdf6e3;
+    color: #073642;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #b58900;
+}
+
+button.topicBtn {
+    background-color: #2aa198;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button.topicBtn:hover {
+    background-color: #268986;
+    transform: scale(1.05);
+}
+
+button.topicBtn.selected {
+    background-color: #b58900; /* Gold color */
+    color: white;
+}
+
+input[type="number"] {
+
+
+
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#playerSection div {
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 100%; /* 输入框宽度占据其父元素的全部宽度 */
+    height: 40px; /* 输入框的高度 */
+    padding: 10px; /* 输入框内的填充空间 */
+    font-size: 16px; /* 输入框内文字的大小 */
+    border: 1px solid #ccc; /* 输入框的边框 */
+
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2aa198;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #268986;
+    transform: scale(1.05);
+}
